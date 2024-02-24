@@ -8,25 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		7924FD7453262D8DBD0EE8C1 /* Pods_ChatBotSDK_ChatBotSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E498241CAFBC9D2FE085BD /* Pods_ChatBotSDK_ChatBotSDKTests.framework */; };
-		ACE84B73CB240AC6D58E4F46 /* Pods_ChatBotSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE2D52548693F1B293F54F5 /* Pods_ChatBotSDK.framework */; };
 		C2375E4D2B8326FF00A79D42 /* ChatBotSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = C2375E4C2B8326FF00A79D42 /* ChatBotSDK.docc */; };
 		C2375E532B8326FF00A79D42 /* ChatBotSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2375E482B8326FF00A79D42 /* ChatBotSDK.framework */; };
 		C2375E582B8326FF00A79D42 /* ChatBotSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2375E572B8326FF00A79D42 /* ChatBotSDKTests.swift */; };
 		C2375E592B8326FF00A79D42 /* ChatBotSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C2375E4B2B8326FF00A79D42 /* ChatBotSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2375E742B83274500A79D42 /* ChatBotSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C2375E732B83274500A79D42 /* ChatBotSDK.podspec */; };
+		C2375E742B83274500A79D42 /* ChatBotSDKShiv.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C2375E732B83274500A79D42 /* ChatBotSDKShiv.podspec */; };
 		C2375E842B83280600A79D42 /* ChatBotSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2375E832B83280600A79D42 /* ChatBotSdk.swift */; };
 		C2375E982B8330BF00A79D42 /* ChatBotConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2375E972B8330BF00A79D42 /* ChatBotConfiguration.swift */; };
 		C2375E9A2B8330E600A79D42 /* ChatBotEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2375E992B8330E600A79D42 /* ChatBotEngine.swift */; };
 		C2375E9C2B8331CD00A79D42 /* ChatBotUIPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2375E9B2B8331CD00A79D42 /* ChatBotUIPresenter.swift */; };
-		C2BA524F2B88D85D00F535CC /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA52472B88D85D00F535CC /* App.xcframework */; };
-		C2BA52502B88D85D00F535CC /* shared_preferences_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA52482B88D85D00F535CC /* shared_preferences_foundation.xcframework */; };
-		C2BA52512B88D85D00F535CC /* webview_flutter_wkwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA52492B88D85D00F535CC /* webview_flutter_wkwebview.xcframework */; };
-		C2BA52522B88D85D00F535CC /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA524A2B88D85D00F535CC /* FlutterPluginRegistrant.xcframework */; };
-		C2BA52532B88D85D00F535CC /* sqflite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA524B2B88D85D00F535CC /* sqflite.xcframework */; };
-		C2BA52542B88D85D00F535CC /* path_provider_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA524C2B88D85D00F535CC /* path_provider_foundation.xcframework */; };
-		C2BA52552B88D85D00F535CC /* url_launcher_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA524D2B88D85D00F535CC /* url_launcher_ios.xcframework */; };
-		C2BA52562B88D85D00F535CC /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA524E2B88D85D00F535CC /* Flutter.xcframework */; };
-		D602C3BB227AD152EB3C864D /* Pods_ChatBotSDK_ChatBotSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3185226777D103F4970522 /* Pods_ChatBotSDK_ChatBotSDKTests.framework */; };
 		EAA6CA9B8B70D527D61D3918 /* Pods_ChatBotSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B160245D9F38F2836BE67D /* Pods_ChatBotSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,29 +32,19 @@
 
 /* Begin PBXFileReference section */
 		08AB23E729778BDA454D0215 /* Pods-ChatBotSDK-ChatBotSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBotSDK-ChatBotSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-ChatBotSDK-ChatBotSDKTests/Pods-ChatBotSDK-ChatBotSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2AE2D52548693F1B293F54F5 /* Pods_ChatBotSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBotSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0512AD4CD8011780045090 /* Pods-ChatBotSDK-ChatBotSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBotSDK-ChatBotSDKTests.release.xcconfig"; path = "Target Support Files/Pods-ChatBotSDK-ChatBotSDKTests/Pods-ChatBotSDK-ChatBotSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		9295C364704F5DF9CBA17168 /* Pods-ChatBotSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBotSDK.debug.xcconfig"; path = "Target Support Files/Pods-ChatBotSDK/Pods-ChatBotSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		99104ED8D7AB76E9E0C52D77 /* Pods-ChatBotSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBotSDK.release.xcconfig"; path = "Target Support Files/Pods-ChatBotSDK/Pods-ChatBotSDK.release.xcconfig"; sourceTree = "<group>"; };
-		AC3185226777D103F4970522 /* Pods_ChatBotSDK_ChatBotSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBotSDK_ChatBotSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2375E482B8326FF00A79D42 /* ChatBotSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChatBotSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2375E4B2B8326FF00A79D42 /* ChatBotSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatBotSDK.h; sourceTree = "<group>"; };
 		C2375E4C2B8326FF00A79D42 /* ChatBotSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ChatBotSDK.docc; sourceTree = "<group>"; };
 		C2375E522B8326FF00A79D42 /* ChatBotSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatBotSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2375E572B8326FF00A79D42 /* ChatBotSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotSDKTests.swift; sourceTree = "<group>"; };
-		C2375E732B83274500A79D42 /* ChatBotSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChatBotSDK.podspec; sourceTree = "<group>"; };
+		C2375E732B83274500A79D42 /* ChatBotSDKShiv.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChatBotSDKShiv.podspec; sourceTree = "<group>"; };
 		C2375E832B83280600A79D42 /* ChatBotSdk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotSdk.swift; sourceTree = "<group>"; };
 		C2375E972B8330BF00A79D42 /* ChatBotConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotConfiguration.swift; sourceTree = "<group>"; };
 		C2375E992B8330E600A79D42 /* ChatBotEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotEngine.swift; sourceTree = "<group>"; };
 		C2375E9B2B8331CD00A79D42 /* ChatBotUIPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotUIPresenter.swift; sourceTree = "<group>"; };
-		C2BA52472B88D85D00F535CC /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = App.xcframework; sourceTree = "<group>"; };
-		C2BA52482B88D85D00F535CC /* shared_preferences_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = shared_preferences_foundation.xcframework; sourceTree = "<group>"; };
-		C2BA52492B88D85D00F535CC /* webview_flutter_wkwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = webview_flutter_wkwebview.xcframework; sourceTree = "<group>"; };
-		C2BA524A2B88D85D00F535CC /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
-		C2BA524B2B88D85D00F535CC /* sqflite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = sqflite.xcframework; sourceTree = "<group>"; };
-		C2BA524C2B88D85D00F535CC /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = path_provider_foundation.xcframework; sourceTree = "<group>"; };
-		C2BA524D2B88D85D00F535CC /* url_launcher_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = url_launcher_ios.xcframework; sourceTree = "<group>"; };
-		C2BA524E2B88D85D00F535CC /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Flutter.xcframework; sourceTree = "<group>"; };
 		D2E498241CAFBC9D2FE085BD /* Pods_ChatBotSDK_ChatBotSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBotSDK_ChatBotSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B160245D9F38F2836BE67D /* Pods_ChatBotSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBotSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,16 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2BA52512B88D85D00F535CC /* webview_flutter_wkwebview.xcframework in Frameworks */,
-				C2BA52552B88D85D00F535CC /* url_launcher_ios.xcframework in Frameworks */,
-				C2BA52502B88D85D00F535CC /* shared_preferences_foundation.xcframework in Frameworks */,
-				C2BA52532B88D85D00F535CC /* sqflite.xcframework in Frameworks */,
 				EAA6CA9B8B70D527D61D3918 /* Pods_ChatBotSDK.framework in Frameworks */,
-				C2BA52522B88D85D00F535CC /* FlutterPluginRegistrant.xcframework in Frameworks */,
-				C2BA52562B88D85D00F535CC /* Flutter.xcframework in Frameworks */,
-				C2BA524F2B88D85D00F535CC /* App.xcframework in Frameworks */,
-				C2BA52542B88D85D00F535CC /* path_provider_foundation.xcframework in Frameworks */,
-				ACE84B73CB240AC6D58E4F46 /* Pods_ChatBotSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +64,6 @@
 			files = (
 				C2375E532B8326FF00A79D42 /* ChatBotSDK.framework in Frameworks */,
 				7924FD7453262D8DBD0EE8C1 /* Pods_ChatBotSDK_ChatBotSDKTests.framework in Frameworks */,
-				D602C3BB227AD152EB3C864D /* Pods_ChatBotSDK_ChatBotSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +93,7 @@
 		C2375E3E2B8326FE00A79D42 = {
 			isa = PBXGroup;
 			children = (
-				C2BA52462B88D85D00F535CC /* Frameworks */,
-				C2375E732B83274500A79D42 /* ChatBotSDK.podspec */,
+				C2375E732B83274500A79D42 /* ChatBotSDKShiv.podspec */,
 				C2375E4A2B8326FF00A79D42 /* ChatBotSDK */,
 				C2375E562B8326FF00A79D42 /* ChatBotSDKTests */,
 				C2375E492B8326FF00A79D42 /* Products */,
@@ -161,23 +130,6 @@
 				C2375E572B8326FF00A79D42 /* ChatBotSDKTests.swift */,
 			);
 			path = ChatBotSDKTests;
-			sourceTree = "<group>";
-		};
-		C2BA52462B88D85D00F535CC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C2BA52472B88D85D00F535CC /* App.xcframework */,
-				C2BA52482B88D85D00F535CC /* shared_preferences_foundation.xcframework */,
-				C2BA52492B88D85D00F535CC /* webview_flutter_wkwebview.xcframework */,
-				C2BA524A2B88D85D00F535CC /* FlutterPluginRegistrant.xcframework */,
-				C2BA524B2B88D85D00F535CC /* sqflite.xcframework */,
-				C2BA524C2B88D85D00F535CC /* path_provider_foundation.xcframework */,
-				C2BA524D2B88D85D00F535CC /* url_launcher_ios.xcframework */,
-				C2BA524E2B88D85D00F535CC /* Flutter.xcframework */,
-				2AE2D52548693F1B293F54F5 /* Pods_ChatBotSDK.framework */,
-				AC3185226777D103F4970522 /* Pods_ChatBotSDK_ChatBotSDKTests.framework */,
-			);
-			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2375E742B83274500A79D42 /* ChatBotSDK.podspec in Resources */,
+				C2375E742B83274500A79D42 /* ChatBotSDKShiv.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

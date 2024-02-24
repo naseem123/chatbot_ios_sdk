@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name          = "ChatBotSDK"
+  s.name          = "ChatBotSDKShiv"
   s.version       = "1.0"
   s.summary       = "iOS SDK for ChatBot"
   s.description   = "iOS SDK for ChatBot,"
