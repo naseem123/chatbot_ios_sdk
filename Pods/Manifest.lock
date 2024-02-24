@@ -1,0 +1,16 @@
+PODS:
+  - "chatbot_sdk_channel_test (1.0.4+8)"
+
+DEPENDENCIES:
+  - chatbot_sdk_channel_test
+
+SPEC REPOS:
+  trunk:
+    - chatbot_sdk_channel_test
+
+SPEC CHECKSUMS:
+  chatbot_sdk_channel_test: 8e005963f29adc6a3c9c2a8ad159299aa3b78e1c
+
+PODFILE CHECKSUM: cd64ab74a5d6f2ae50d06ed6e30e7c65fe1e869d
+
+COCOAPODS: 1.15.2

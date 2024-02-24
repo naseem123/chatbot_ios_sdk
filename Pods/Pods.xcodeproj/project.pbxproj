@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6F3652497844120B65EEC85396AE2D69 /* chatbot_sdk_channel_test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 35315617517E0A09BC45D097A68BFD28 /* Build configuration list for PBXAggregateTarget "chatbot_sdk_channel_test" */;
+			buildPhases = (
+				7CE588586BD5B6512CEF5ABC1B00A275 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = chatbot_sdk_channel_test;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3656B4C2F28B268A7118C95CBE4563AF /* Pods-ChatBotSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD075B28AF876214D13A0ABD12A0AF /* Pods-ChatBotSDK-dummy.m */; };
+		5ECDA811222EAD9BC4A3095E27F2FDAD /* Pods-ChatBotSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D55E5E30F12071E8CAB6AF955B43A3D /* Pods-ChatBotSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6664254604D15ABDE4026E95C9A128E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8971F5F4F7B3E52708182DEF206114C0 /* Pods-ChatBotSDK-ChatBotSDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B3E94E3DC07D5C01CCA728B7B48EA9 /* Pods-ChatBotSDK-ChatBotSDKTests-dummy.m */; };
+		9B2E04730DBAD6E625B5F015A2CBB937 /* Pods-ChatBotSDK-ChatBotSDKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41CDE00166DAF970CF0ABFEAA9DE4A74 /* Pods-ChatBotSDK-ChatBotSDKTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF2E0328968B1FB1C7AEF1C21DDF7F2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8498D6106F880673FBB2090CE0292606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F3652497844120B65EEC85396AE2D69;
+			remoteInfo = chatbot_sdk_channel_test;
+		};
+		9AF088C024F3318A66E377E8B9A65E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F3652497844120B65EEC85396AE2D69;
+			remoteInfo = chatbot_sdk_channel_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B3E94E3DC07D5C01CCA728B7B48EA9 /* Pods-ChatBotSDK-ChatBotSDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatBotSDK-ChatBotSDKTests-dummy.m"; sourceTree = "<group>"; };
+		1E2562A29AD11890F425FDAE7657505F /* chatbot_sdk_channel_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = chatbot_sdk_channel_test.release.xcconfig; sourceTree = "<group>"; };
+		1F857D8A6D2E735F2B86D1059E2DD7B4 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FlutterPluginRegistrant.xcframework; path = Frameworks/Debug/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		35EA26BBA668CE2BEAD8F67BE0A1C52A /* Pods-ChatBotSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatBotSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CE954036AB563AFBC6956BDE30BE200 /* Pods-ChatBotSDK-ChatBotSDKTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBotSDK-ChatBotSDKTests-Info.plist"; sourceTree = "<group>"; };
+		41CDE00166DAF970CF0ABFEAA9DE4A74 /* Pods-ChatBotSDK-ChatBotSDKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatBotSDK-ChatBotSDKTests-umbrella.h"; sourceTree = "<group>"; };
+		4517027C01738CD074EE05492AF5B741 /* App.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = App.xcframework; path = Frameworks/Debug/App.xcframework; sourceTree = "<group>"; };
+		4FD25B80633B9DD0D9547BBF0A36BA0D /* url_launcher_ios.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = url_launcher_ios.xcframework; path = Frameworks/Debug/url_launcher_ios.xcframework; sourceTree = "<group>"; };
+		5625D420E6F18474E498ED8F430D0A1E /* Pods-ChatBotSDK-ChatBotSDKTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChatBotSDK-ChatBotSDKTests"; path = Pods_ChatBotSDK_ChatBotSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6495A11F7AFA19D5A93A07CC5FE25180 /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Flutter.xcframework; path = Frameworks/Debug/Flutter.xcframework; sourceTree = "<group>"; };
+		67F07FB122FA9BDBE19B2A09DBEDBE26 /* Pods-ChatBotSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBotSDK.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		81ECBBC896C4CAA438644A5C39C2B5C8 /* Pods-ChatBotSDK-ChatBotSDKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatBotSDK-ChatBotSDKTests.modulemap"; sourceTree = "<group>"; };
+		83A3B6C3A9C014D2A662F0B10A39798B /* Pods-ChatBotSDK-ChatBotSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBotSDK-ChatBotSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86D0F0226304A0D60CA80E08608E9756 /* Pods-ChatBotSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatBotSDK.modulemap"; sourceTree = "<group>"; };
+		8D55E5E30F12071E8CAB6AF955B43A3D /* Pods-ChatBotSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatBotSDK-umbrella.h"; sourceTree = "<group>"; };
+		91F778741944DB2F6894AE8C9DBFB753 /* Pods-ChatBotSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBotSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		93EB4A28E5D654DDDAB900CB8F351B66 /* Pods-ChatBotSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBotSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08FA5CD06540E8895533BE6DE2C9BD4 /* chatbot_sdk_channel_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = chatbot_sdk_channel_test.debug.xcconfig; sourceTree = "<group>"; };
+		A7AD075B28AF876214D13A0ABD12A0AF /* Pods-ChatBotSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatBotSDK-dummy.m"; sourceTree = "<group>"; };
+		ABB07517A2A74D209203FFC30612D86F /* webview_flutter_wkwebview.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = webview_flutter_wkwebview.xcframework; path = Frameworks/Debug/webview_flutter_wkwebview.xcframework; sourceTree = "<group>"; };
+		BBEC52F41ADE4CA2F0926E20EF588FFD /* Pods-ChatBotSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBotSDK-Info.plist"; sourceTree = "<group>"; };
+		C76BD440F6F64DA3D52682FBFEEB7A5B /* sqflite.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = sqflite.xcframework; path = Frameworks/Debug/sqflite.xcframework; sourceTree = "<group>"; };
+		D690F92DF74DC2F1781062942F7A1D1E /* Pods-ChatBotSDK-ChatBotSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBotSDK-ChatBotSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		D94DB0279F4C4E8DF1C47623F4452FD8 /* Pods-ChatBotSDK-ChatBotSDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatBotSDK-ChatBotSDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DAAA947353B548CEABC457E65D88778F /* chatbot_sdk_channel_test-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "chatbot_sdk_channel_test-xcframeworks.sh"; sourceTree = "<group>"; };
+		F393FB783EBB23D26640C8094B2087FD /* shared_preferences_foundation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = shared_preferences_foundation.xcframework; path = Frameworks/Debug/shared_preferences_foundation.xcframework; sourceTree = "<group>"; };
+		F443F0B1D111221371FC0E239CF41CFD /* Pods-ChatBotSDK-ChatBotSDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBotSDK-ChatBotSDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F666F873880C7FF9C79D3F6DF334D5D8 /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = path_provider_foundation.xcframework; path = Frameworks/Debug/path_provider_foundation.xcframework; sourceTree = "<group>"; };
+		F86562D33D63B4952E6F44F094B832A0 /* Pods-ChatBotSDK-ChatBotSDKTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatBotSDK-ChatBotSDKTests-frameworks.sh"; sourceTree = "<group>"; };
+		FB407FAF6D2342508950007469B2B01C /* Pods-ChatBotSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChatBotSDK"; path = Pods_ChatBotSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59511BCFB2607D0F61DB4274FD335687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2E0328968B1FB1C7AEF1C21DDF7F2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD1A212172BCA773171BCDE035D35EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6664254604D15ABDE4026E95C9A128E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A7C77EE30405E8DFAFFEF5A0F3B4CA /* Pods-ChatBotSDK-ChatBotSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				81ECBBC896C4CAA438644A5C39C2B5C8 /* Pods-ChatBotSDK-ChatBotSDKTests.modulemap */,
+				D94DB0279F4C4E8DF1C47623F4452FD8 /* Pods-ChatBotSDK-ChatBotSDKTests-acknowledgements.markdown */,
+				F443F0B1D111221371FC0E239CF41CFD /* Pods-ChatBotSDK-ChatBotSDKTests-acknowledgements.plist */,
+				17B3E94E3DC07D5C01CCA728B7B48EA9 /* Pods-ChatBotSDK-ChatBotSDKTests-dummy.m */,
+				F86562D33D63B4952E6F44F094B832A0 /* Pods-ChatBotSDK-ChatBotSDKTests-frameworks.sh */,
+				3CE954036AB563AFBC6956BDE30BE200 /* Pods-ChatBotSDK-ChatBotSDKTests-Info.plist */,
+				41CDE00166DAF970CF0ABFEAA9DE4A74 /* Pods-ChatBotSDK-ChatBotSDKTests-umbrella.h */,
+				83A3B6C3A9C014D2A662F0B10A39798B /* Pods-ChatBotSDK-ChatBotSDKTests.debug.xcconfig */,
+				D690F92DF74DC2F1781062942F7A1D1E /* Pods-ChatBotSDK-ChatBotSDKTests.release.xcconfig */,
+			);
+			name = "Pods-ChatBotSDK-ChatBotSDKTests";
+			path = "Target Support Files/Pods-ChatBotSDK-ChatBotSDKTests";
+			sourceTree = "<group>";
+		};
+		432A5E60A55B6DC930A4A3DB6BB5C1F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAAA947353B548CEABC457E65D88778F /* chatbot_sdk_channel_test-xcframeworks.sh */,
+				A08FA5CD06540E8895533BE6DE2C9BD4 /* chatbot_sdk_channel_test.debug.xcconfig */,
+				1E2562A29AD11890F425FDAE7657505F /* chatbot_sdk_channel_test.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/chatbot_sdk_channel_test";
+			sourceTree = "<group>";
+		};
+		47090062AD11E503F4226BCA6CDC2939 /* chatbot_sdk_channel_test */ = {
+			isa = PBXGroup;
+			children = (
+				85A5DC5431E4EC22767983EB8606EF9A /* Frameworks */,
+				432A5E60A55B6DC930A4A3DB6BB5C1F6 /* Support Files */,
+			);
+			name = chatbot_sdk_channel_test;
+			path = chatbot_sdk_channel_test;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		71E634BE8BEE1BB0CB16659D0A1935D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47090062AD11E503F4226BCA6CDC2939 /* chatbot_sdk_channel_test */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80E6A67CAEA6D96FACDBC51E7684879E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB407FAF6D2342508950007469B2B01C /* Pods-ChatBotSDK */,
+				5625D420E6F18474E498ED8F430D0A1E /* Pods-ChatBotSDK-ChatBotSDKTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85A5DC5431E4EC22767983EB8606EF9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4517027C01738CD074EE05492AF5B741 /* App.xcframework */,
+				6495A11F7AFA19D5A93A07CC5FE25180 /* Flutter.xcframework */,
+				1F857D8A6D2E735F2B86D1059E2DD7B4 /* FlutterPluginRegistrant.xcframework */,
+				F666F873880C7FF9C79D3F6DF334D5D8 /* path_provider_foundation.xcframework */,
+				F393FB783EBB23D26640C8094B2087FD /* shared_preferences_foundation.xcframework */,
+				C76BD440F6F64DA3D52682FBFEEB7A5B /* sqflite.xcframework */,
+				4FD25B80633B9DD0D9547BBF0A36BA0D /* url_launcher_ios.xcframework */,
+				ABB07517A2A74D209203FFC30612D86F /* webview_flutter_wkwebview.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE69022CFAFDA7C35E6645BE0742F676 /* Pods-ChatBotSDK */ = {
+			isa = PBXGroup;
+			children = (
+				86D0F0226304A0D60CA80E08608E9756 /* Pods-ChatBotSDK.modulemap */,
+				35EA26BBA668CE2BEAD8F67BE0A1C52A /* Pods-ChatBotSDK-acknowledgements.markdown */,
+				91F778741944DB2F6894AE8C9DBFB753 /* Pods-ChatBotSDK-acknowledgements.plist */,
+				A7AD075B28AF876214D13A0ABD12A0AF /* Pods-ChatBotSDK-dummy.m */,
+				BBEC52F41ADE4CA2F0926E20EF588FFD /* Pods-ChatBotSDK-Info.plist */,
+				8D55E5E30F12071E8CAB6AF955B43A3D /* Pods-ChatBotSDK-umbrella.h */,
+				93EB4A28E5D654DDDAB900CB8F351B66 /* Pods-ChatBotSDK.debug.xcconfig */,
+				67F07FB122FA9BDBE19B2A09DBEDBE26 /* Pods-ChatBotSDK.release.xcconfig */,
+			);
+			name = "Pods-ChatBotSDK";
+			path = "Target Support Files/Pods-ChatBotSDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				71E634BE8BEE1BB0CB16659D0A1935D8 /* Pods */,
+				80E6A67CAEA6D96FACDBC51E7684879E /* Products */,
+				D34AC418C4C01D861CDEBBC8159ECB6F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D34AC418C4C01D861CDEBBC8159ECB6F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE69022CFAFDA7C35E6645BE0742F676 /* Pods-ChatBotSDK */,
+				14A7C77EE30405E8DFAFFEF5A0F3B4CA /* Pods-ChatBotSDK-ChatBotSDKTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F4208ED2590B826AAA35D7087E7776A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECDA811222EAD9BC4A3095E27F2FDAD /* Pods-ChatBotSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AC7608C6DF6EACCD7A7176FEAE8C03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2E04730DBAD6E625B5F015A2CBB937 /* Pods-ChatBotSDK-ChatBotSDKTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E3FFF3877353DBE80C2AB207438B08A /* Pods-ChatBotSDK-ChatBotSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE0509522FDA4B326EA3062C75E8F63 /* Build configuration list for PBXNativeTarget "Pods-ChatBotSDK-ChatBotSDKTests" */;
+			buildPhases = (
+				62AC7608C6DF6EACCD7A7176FEAE8C03 /* Headers */,
+				567EB1370E9A90042409A95753050CDA /* Sources */,
+				DDD1A212172BCA773171BCDE035D35EB /* Frameworks */,
+				B5D8AB99A71910B07038769603256F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776A9493C6C325C7CC5BE5A4D15D55F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatBotSDK-ChatBotSDKTests";
+			productName = Pods_ChatBotSDK_ChatBotSDKTests;
+			productReference = 5625D420E6F18474E498ED8F430D0A1E /* Pods-ChatBotSDK-ChatBotSDKTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E8D63087BE6D6FFB00834FF72194DA6 /* Pods-ChatBotSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3116867D0C46B24FC37A4700F6DF2C /* Build configuration list for PBXNativeTarget "Pods-ChatBotSDK" */;
+			buildPhases = (
+				3F4208ED2590B826AAA35D7087E7776A /* Headers */,
+				B9475F0518B793586048DB9810E530B8 /* Sources */,
+				59511BCFB2607D0F61DB4274FD335687 /* Frameworks */,
+				9F655A9AC81B178FB4FFD5A562CD9ED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345E56AD47F85F42BC479BD19B0E8EC6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatBotSDK";
+			productName = Pods_ChatBotSDK;
+			productReference = FB407FAF6D2342508950007469B2B01C /* Pods-ChatBotSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 80E6A67CAEA6D96FACDBC51E7684879E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F3652497844120B65EEC85396AE2D69 /* chatbot_sdk_channel_test */,
+				7E8D63087BE6D6FFB00834FF72194DA6 /* Pods-ChatBotSDK */,
+				0E3FFF3877353DBE80C2AB207438B08A /* Pods-ChatBotSDK-ChatBotSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F655A9AC81B178FB4FFD5A562CD9ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D8AB99A71910B07038769603256F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CE588586BD5B6512CEF5ABC1B00A275 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/chatbot_sdk_channel_test/chatbot_sdk_channel_test-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/chatbot_sdk_channel_test/chatbot_sdk_channel_test-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/chatbot_sdk_channel_test/chatbot_sdk_channel_test-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		567EB1370E9A90042409A95753050CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8971F5F4F7B3E52708182DEF206114C0 /* Pods-ChatBotSDK-ChatBotSDKTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9475F0518B793586048DB9810E530B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3656B4C2F28B268A7118C95CBE4563AF /* Pods-ChatBotSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		345E56AD47F85F42BC479BD19B0E8EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = chatbot_sdk_channel_test;
+			target = 6F3652497844120B65EEC85396AE2D69 /* chatbot_sdk_channel_test */;
+			targetProxy = 8498D6106F880673FBB2090CE0292606 /* PBXContainerItemProxy */;
+		};
+		776A9493C6C325C7CC5BE5A4D15D55F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = chatbot_sdk_channel_test;
+			target = 6F3652497844120B65EEC85396AE2D69 /* chatbot_sdk_channel_test */;
+			targetProxy = 9AF088C024F3318A66E377E8B9A65E5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B66946E661AE411BA236C7BE967189E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93EB4A28E5D654DDDAB900CB8F351B66 /* Pods-ChatBotSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatBotSDK/Pods-ChatBotSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatBotSDK/Pods-ChatBotSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AFCF2CF4A3C8E3B4D10AFDCFCB0D346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2562A29AD11890F425FDAE7657505F /* chatbot_sdk_channel_test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E9238CBDA58450969FE6F5CB8090D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D690F92DF74DC2F1781062942F7A1D1E /* Pods-ChatBotSDK-ChatBotSDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatBotSDK-ChatBotSDKTests/Pods-ChatBotSDK-ChatBotSDKTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatBotSDK-ChatBotSDKTests/Pods-ChatBotSDK-ChatBotSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CE12BD1AD16FBA36B945649C10F26EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F07FB122FA9BDBE19B2A09DBEDBE26 /* Pods-ChatBotSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatBotSDK/Pods-ChatBotSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatBotSDK/Pods-ChatBotSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B033F8C4F78E1D6A27D44B1D2F656B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08FA5CD06540E8895533BE6DE2C9BD4 /* chatbot_sdk_channel_test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4C66649112E1CF4D3545BFB7F541597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A3B6C3A9C014D2A662F0B10A39798B /* Pods-ChatBotSDK-ChatBotSDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatBotSDK-ChatBotSDKTests/Pods-ChatBotSDK-ChatBotSDKTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatBotSDK-ChatBotSDKTests/Pods-ChatBotSDK-ChatBotSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35315617517E0A09BC45D097A68BFD28 /* Build configuration list for PBXAggregateTarget "chatbot_sdk_channel_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B033F8C4F78E1D6A27D44B1D2F656B53 /* Debug */,
+				3AFCF2CF4A3C8E3B4D10AFDCFCB0D346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3116867D0C46B24FC37A4700F6DF2C /* Build configuration list for PBXNativeTarget "Pods-ChatBotSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B66946E661AE411BA236C7BE967189E /* Debug */,
+				5CE12BD1AD16FBA36B945649C10F26EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE0509522FDA4B326EA3062C75E8F63 /* Build configuration list for PBXNativeTarget "Pods-ChatBotSDK-ChatBotSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C66649112E1CF4D3545BFB7F541597 /* Debug */,
+				4E9238CBDA58450969FE6F5CB8090D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
