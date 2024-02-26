@@ -12,7 +12,7 @@
 		C2375E532B8326FF00A79D42 /* ChatBotSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2375E482B8326FF00A79D42 /* ChatBotSDK.framework */; };
 		C2375E582B8326FF00A79D42 /* ChatBotSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2375E572B8326FF00A79D42 /* ChatBotSDKTests.swift */; };
 		C2375E592B8326FF00A79D42 /* ChatBotSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C2375E4B2B8326FF00A79D42 /* ChatBotSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2375E742B83274500A79D42 /* ChatBotSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C2375E732B83274500A79D42 /* ChatBotSDK.podspec */; };
+		C2375E742B83274500A79D42 /* ChatBotSDK_v1.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C2375E732B83274500A79D42 /* ChatBotSDK_v1.podspec */; };
 		C2375E842B83280600A79D42 /* ChatBotSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2375E832B83280600A79D42 /* ChatBotSdk.swift */; };
 		C2375E982B8330BF00A79D42 /* ChatBotConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2375E972B8330BF00A79D42 /* ChatBotConfiguration.swift */; };
 		C2375E9A2B8330E600A79D42 /* ChatBotEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2375E992B8330E600A79D42 /* ChatBotEngine.swift */; };
@@ -40,7 +40,7 @@
 		C2375E4C2B8326FF00A79D42 /* ChatBotSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ChatBotSDK.docc; sourceTree = "<group>"; };
 		C2375E522B8326FF00A79D42 /* ChatBotSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatBotSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2375E572B8326FF00A79D42 /* ChatBotSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotSDKTests.swift; sourceTree = "<group>"; };
-		C2375E732B83274500A79D42 /* ChatBotSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChatBotSDK.podspec; sourceTree = "<group>"; };
+		C2375E732B83274500A79D42 /* ChatBotSDK_v1.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChatBotSDK_v1.podspec; sourceTree = "<group>"; };
 		C2375E832B83280600A79D42 /* ChatBotSdk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotSdk.swift; sourceTree = "<group>"; };
 		C2375E972B8330BF00A79D42 /* ChatBotConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotConfiguration.swift; sourceTree = "<group>"; };
 		C2375E992B8330E600A79D42 /* ChatBotEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotEngine.swift; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		C2375E3E2B8326FE00A79D42 = {
 			isa = PBXGroup;
 			children = (
-				C2375E732B83274500A79D42 /* ChatBotSDK.podspec */,
+				C2375E732B83274500A79D42 /* ChatBotSDK_v1.podspec */,
 				C2375E4A2B8326FF00A79D42 /* ChatBotSDK */,
 				C2375E562B8326FF00A79D42 /* ChatBotSDKTests */,
 				C2375E492B8326FF00A79D42 /* Products */,
@@ -227,7 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2375E742B83274500A79D42 /* ChatBotSDK.podspec in Resources */,
+				C2375E742B83274500A79D42 /* ChatBotSDK_v1.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
