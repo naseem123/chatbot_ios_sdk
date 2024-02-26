@@ -176,22 +176,22 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/App.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/Flutter.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/path_provider_foundation.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/shared_preferences_foundation.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/sqflite.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/url_launcher_ios.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/webview_flutter_wkwebview.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/App.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/Flutter.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/path_provider_foundation.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/shared_preferences_foundation.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/sqflite.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/url_launcher_ios.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/webview_flutter_wkwebview.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/App.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/Flutter.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/path_provider_foundation.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/shared_preferences_foundation.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/sqflite.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/url_launcher_ios.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/webview_flutter_wkwebview.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/App.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/Flutter.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/path_provider_foundation.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/shared_preferences_foundation.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/sqflite.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/url_launcher_ios.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/webview_flutter_wkwebview.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

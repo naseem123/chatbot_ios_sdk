@@ -1,9 +1,0 @@
-${PODS_ROOT}/Target Support Files/chatbot_sdk_channel_test/chatbot_sdk_channel_test-xcframeworks.sh
-${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/App.xcframework
-${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/Flutter.xcframework
-${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/FlutterPluginRegistrant.xcframework
-${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/path_provider_foundation.xcframework
-${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/shared_preferences_foundation.xcframework
-${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/sqflite.xcframework
-${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/url_launcher_ios.xcframework
-${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/webview_flutter_wkwebview.xcframework

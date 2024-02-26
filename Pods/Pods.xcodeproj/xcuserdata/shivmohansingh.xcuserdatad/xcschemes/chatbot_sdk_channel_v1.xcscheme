@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6F3652497844120B65EEC85396AE2D69"
-               BuildableName = "chatbot_sdk_channel_test"
-               BlueprintName = "chatbot_sdk_channel_test"
+               BlueprintIdentifier = "C34238BAAAC1698961C88B8D0731B84F"
+               BuildableName = "chatbot_sdk_channel_v1"
+               BlueprintName = "chatbot_sdk_channel_v1"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

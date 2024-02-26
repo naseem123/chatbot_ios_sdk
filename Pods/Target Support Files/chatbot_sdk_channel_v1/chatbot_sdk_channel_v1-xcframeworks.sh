@@ -201,12 +201,12 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/App.xcframework" "chatbot_sdk_channel_test" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/Flutter.xcframework" "chatbot_sdk_channel_test" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/FlutterPluginRegistrant.xcframework" "chatbot_sdk_channel_test" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/path_provider_foundation.xcframework" "chatbot_sdk_channel_test" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/shared_preferences_foundation.xcframework" "chatbot_sdk_channel_test" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/sqflite.xcframework" "chatbot_sdk_channel_test" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/url_launcher_ios.xcframework" "chatbot_sdk_channel_test" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_test/Frameworks/Debug/webview_flutter_wkwebview.xcframework" "chatbot_sdk_channel_test" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_v1/Frameworks/Debug/App.xcframework" "chatbot_sdk_channel_v1" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_v1/Frameworks/Debug/Flutter.xcframework" "chatbot_sdk_channel_v1" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_v1/Frameworks/Debug/FlutterPluginRegistrant.xcframework" "chatbot_sdk_channel_v1" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_v1/Frameworks/Debug/path_provider_foundation.xcframework" "chatbot_sdk_channel_v1" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_v1/Frameworks/Debug/shared_preferences_foundation.xcframework" "chatbot_sdk_channel_v1" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_v1/Frameworks/Debug/sqflite.xcframework" "chatbot_sdk_channel_v1" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_v1/Frameworks/Debug/url_launcher_ios.xcframework" "chatbot_sdk_channel_v1" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/chatbot_sdk_channel_v1/Frameworks/Debug/webview_flutter_wkwebview.xcframework" "chatbot_sdk_channel_v1" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 

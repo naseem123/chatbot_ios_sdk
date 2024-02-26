@@ -6,7 +6,7 @@ target 'ChatBotSDK' do
   use_frameworks!
 
   #pod 'chatbot_sdk_channel_test', :path => '/Users/shivmohansingh/Projects/flutter/chatbot_sdk_channel/chatbot_sdk_channel_test.podspec'
-  pod 'chatbot_sdk_channel_test'
+  pod 'chatbot_sdk_channel_v1'
   target 'ChatBotSDKTests' do
     # Pods for testing
   end

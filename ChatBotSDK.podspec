@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name          = "ChatBotSDKShiv12"
-  s.version       = "5.0"
+  s.name          = "ChatBotSDK"
+  s.version       = "6.0"
   s.summary       = "iOS SDK for ChatBot"
   s.description   = "iOS SDK for ChatBot,"
   s.homepage      = "https://github.com/ShivMohan1889/ChatBotSDK"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "ChatBotSDK/**/*.h"
   
   
-s.dependency 'chatbot_sdk_channel_test'
+s.dependency 'chatbot_sdk_channel_v1'
   
  #s.vendored_frameworks = [
  #  'Frameworks/App.xcframework',

@@ -11,11 +11,13 @@ import Flutter
 import FlutterPluginRegistrant
 
 /// Handles the presentation of the Flutter UI.
-class ChatBotUIPresenter {
+class ChatBotUIPresenter: NSObject {
     // MARK: - Properties
     
     /// The ChatBotEngine instance.
     let engine: ChatBotEngine
+    
+    var flag = false;
     
     /// The view controller from which the Flutter UI will be presented.
     let viewController: UIViewController
@@ -38,10 +40,25 @@ class ChatBotUIPresenter {
         DispatchQueue.main.async {
             let flutterViewController = FlutterViewController(engine: self.engine.flutterEngine, nibName: nil, bundle: nil)
             if let navController = self.viewController.navigationController {
+                navController.delegate = self
                 navController.pushViewController(flutterViewController, animated: true)
             } else {
                 self.viewController.present(flutterViewController, animated: true, completion: nil)
             }
         }
+    }
+}
+
+
+extension ChatBotUIPresenter: UINavigationControllerDelegate {
+    func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
+        flag = !flag;
+        if (flag == true){
+            navigationController.setNavigationBarHidden(true, animated: animated)
+        }
+        else{
+            navigationController.setNavigationBarHidden(false, animated: animated)
+        }
+        
     }
 }

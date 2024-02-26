@@ -1,8 +1,8 @@
 ${PODS_ROOT}/Target Support Files/Pods-ChatBotSDK-ChatBotSDKTests/Pods-ChatBotSDK-ChatBotSDKTests-frameworks.sh
-${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/App.framework/App
-${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/Flutter.framework/Flutter
-${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/path_provider_foundation.framework/path_provider_foundation
-${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/shared_preferences_foundation.framework/shared_preferences_foundation
-${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/sqflite.framework/sqflite
-${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/url_launcher_ios.framework/url_launcher_ios
-${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_test/webview_flutter_wkwebview.framework/webview_flutter_wkwebview
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/App.framework/App
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/Flutter.framework/Flutter
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/path_provider_foundation.framework/path_provider_foundation
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/shared_preferences_foundation.framework/shared_preferences_foundation
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/sqflite.framework/sqflite
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/url_launcher_ios.framework/url_launcher_ios
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/webview_flutter_wkwebview.framework/webview_flutter_wkwebview

@@ -1,0 +1,8 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/App.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/Flutter.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/FlutterPluginRegistrant.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/path_provider_foundation.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/shared_preferences_foundation.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/sqflite.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/url_launcher_ios.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/chatbot_sdk_channel_v1/webview_flutter_wkwebview.framework
