@@ -16,8 +16,8 @@ class ChatBotUIPresenter: NSObject {
     
     /// The ChatBotEngine instance.
     let engine: ChatBotEngine
-    
-    var flag = false;
+    var methodChannel: FlutterMethodChannel!
+    var flagIsNavVisible = false;
     
     /// The view controller from which the Flutter UI will be presented.
     let viewController: UIViewController
@@ -39,8 +39,28 @@ class ChatBotUIPresenter: NSObject {
     func presentUI() {
         DispatchQueue.main.async {
             let flutterViewController = FlutterViewController(engine: self.engine.flutterEngine, nibName: nil, bundle: nil)
+            
+            self.methodChannel = FlutterMethodChannel(name: "com.chatbot.channel",
+                                                 binaryMessenger: flutterViewController.binaryMessenger)
+            self.methodChannel.setMethodCallHandler ({ (call: FlutterMethodCall, result: @escaping FlutterResult) -> Void in
+                switch call.method {
+                case "navigateToNativeApp":
+                    
+                    if let navController = self.viewController.navigationController {
+                        navController.isNavigationBarHidden = self.flagIsNavVisible
+                        navController.popViewController(animated: true);
+                    } else {
+                        self.viewController.dismiss(animated: true)
+                    }
+                    
+                default: result(FlutterMethodNotImplemented)
+                }
+            })
+            
+            
             if let navController = self.viewController.navigationController {
-                navController.delegate = self
+//                navController.delegate = self
+                self.flagIsNavVisible = navController.isNavigationBarHidden
                 navController.pushViewController(flutterViewController, animated: true)
             } else {
                 self.viewController.present(flutterViewController, animated: true, completion: nil)
@@ -49,16 +69,16 @@ class ChatBotUIPresenter: NSObject {
     }
 }
 
-
-extension ChatBotUIPresenter: UINavigationControllerDelegate {
-    func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
-        flag = !flag;
-        if (flag == true){
-            navigationController.setNavigationBarHidden(true, animated: animated)
-        }
-        else{
-            navigationController.setNavigationBarHidden(false, animated: animated)
-        }
-        
-    }
-}
+//
+//extension ChatBotUIPresenter: UINavigationControllerDelegate {
+//    func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
+//        flag = !flag;
+//        if (flag == true){
+//            navigationController.setNavigationBarHidden(true, animated: animated)
+//        }
+//        else{
+//            navigationController.setNavigationBarHidden(false, animated: animated)
+//        }
+//        
+//    }
+//}
