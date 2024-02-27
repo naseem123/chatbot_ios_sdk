@@ -1,16 +1,16 @@
 PODS:
-  - chatbot_sdk_channel_v1 (1.0.0)
+  - chatbot_sdk_channel_v1 (2.0.0)
 
 DEPENDENCIES:
-  - chatbot_sdk_channel_v1
+  - chatbot_sdk_channel_v1 (~> 2.0)
 
 SPEC REPOS:
   trunk:
     - chatbot_sdk_channel_v1
 
 SPEC CHECKSUMS:
-  chatbot_sdk_channel_v1: 7af27601e81124e54be0026ed5c4f4a4cec77bee
+  chatbot_sdk_channel_v1: 008469565ca155346b0832d04aa72516097edc88
 
-PODFILE CHECKSUM: c743a5bba28f6b214283aa376e0e5939ad51c4c2
+PODFILE CHECKSUM: a65f67dcfa1401e29bd393343ec831b063c09e55
 
 COCOAPODS: 1.15.2
