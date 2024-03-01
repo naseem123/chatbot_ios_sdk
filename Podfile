@@ -5,7 +5,7 @@ target 'ChatBotSDK' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'chatbot_sdk_channel_v1', '~> 2.0'
+  pod 'chatbot_sdk_channel_v2'
 #    flutter_application_path = '/Users/shivmohansingh/Projects/flutter/chat_bot__channel2'
 #    load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
 #    

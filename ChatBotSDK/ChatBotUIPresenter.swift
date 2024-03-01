@@ -40,6 +40,21 @@ class ChatBotUIPresenter: NSObject {
         DispatchQueue.main.async {
             let flutterViewController = FlutterViewController(engine: self.engine.flutterEngine, nibName: nil, bundle: nil)
             
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                if let navController = self.viewController.navigationController {
+                    //                navController.delegate = self
+                    self.flagIsNavVisible = navController.isNavigationBarHidden
+                    navController.setNavigationBarHidden(true, animated: false)
+                    navController.pushViewController(flutterViewController, animated: true)
+                } else {
+                    self.viewController.present(flutterViewController, animated: true, completion: nil)
+                }
+            }
+            
+            
+            
+            
             let channel = FlutterMethodChannel(name: "com.ra.print.channel",
                                                binaryMessenger: flutterViewController.binaryMessenger)
             channel.setMethodCallHandler({
@@ -51,10 +66,13 @@ class ChatBotUIPresenter: NSObject {
                     result(FlutterMethodNotImplemented)
                     return
                 }
-//                Channel.printPdf(result: result)
+                //                Channel.printPdf(result: result)
                 if let mySelf = self{
                     if let navController = mySelf.viewController.navigationController {
-                        navController.isNavigationBarHidden = mySelf.flagIsNavVisible
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                            navController.isNavigationBarHidden = mySelf.flagIsNavVisible
+                        }
+                        
                         navController.popViewController(animated: true);
                     } else {
                         mySelf.viewController.dismiss(animated: true)
@@ -62,16 +80,6 @@ class ChatBotUIPresenter: NSObject {
                 }
                 
             })
-            
-            
-            if let navController = self.viewController.navigationController {
-//                navController.delegate = self
-                self.flagIsNavVisible = navController.isNavigationBarHidden
-                navController.setNavigationBarHidden(true, animated: false)
-                navController.pushViewController(flutterViewController, animated: true)
-            } else {
-                self.viewController.present(flutterViewController, animated: true, completion: nil)
-            }
         }
     }
 }
