@@ -94,7 +94,7 @@ jobs:
       - name: "Deploy to Cocoapods"
         run: |
           set -eo pipefail
-          pod trunk push chatbot_sdk_channel_v1.podspec --allow-warnings --verbose
+          pod trunk push ChaBotSDK.podspec --allow-warnings --verbose
         env:
           COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}  
 

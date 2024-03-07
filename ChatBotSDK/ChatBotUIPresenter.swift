@@ -43,7 +43,6 @@ class ChatBotUIPresenter: NSObject {
             
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                 if let navController = self.viewController.navigationController {
-                    //                navController.delegate = self
                     self.flagIsNavVisible = navController.isNavigationBarHidden
                     navController.setNavigationBarHidden(true, animated: false)
                     navController.pushViewController(flutterViewController, animated: true)
@@ -55,13 +54,12 @@ class ChatBotUIPresenter: NSObject {
             
             
             
-            let channel = FlutterMethodChannel(name: "com.ra.print.channel",
+            let channel = FlutterMethodChannel(name: "com.chatbot.channel",
                                                binaryMessenger: flutterViewController.binaryMessenger)
             channel.setMethodCallHandler({
                 
                 [weak self] (call: FlutterMethodCall, result: FlutterResult) -> Void in
                 // This method is invoked on the UI thread.
-                print("-----chatbot sdk----");
                 guard call.method == "callNativeMethod" else {
                     result(FlutterMethodNotImplemented)
                     return
@@ -83,17 +81,3 @@ class ChatBotUIPresenter: NSObject {
         }
     }
 }
-
-//
-//extension ChatBotUIPresenter: UINavigationControllerDelegate {
-//    func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
-//        flag = !flag;
-//        if (flag == true){
-//            navigationController.setNavigationBarHidden(true, animated: animated)
-//        }
-//        else{
-//            navigationController.setNavigationBarHidden(false, animated: animated)
-//        }
-//        
-//    }
-//}

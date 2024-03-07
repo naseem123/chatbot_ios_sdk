@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
-  s.name          = "ChatBotSDK_v1"
-  s.version       = "10.1"
+  s.name          = "ChatBotSDK_v2"
+  s.version       = "1.0.16"
   s.summary       = "iOS SDK for ChatBot"
   s.description   = "iOS SDK for ChatBot,"
-  s.homepage      = "https://github.com/ShivMohan1889/ChatBotSDK"
+  s.homepage      = "https://github.com/naseem123/chatbot_ios_sdk"
   s.license       = "MIT"
-  s.author        = "Shiv"
+  s.author        = "Suhail T S"
   s.platform      = :ios, "13.0"
   s.swift_version = "5.0"
   s.source        = {
-    :git => "https://github.com/ShivMohan1889/ChatBotSDK.git",
+    :git => "https://github.com/naseem123/chatbot_ios_sdk.git",
     :tag => "#{s.version}"
   }
   s.static_framework = true
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "ChatBotSDK/**/*.h"
   
   
-s.dependency 'chatbot_sdk_channel_v2'
+s.dependency 'chatbot_sdk_channel_flutter_1'
   
  #s.vendored_frameworks = [
  #  'Frameworks/App.xcframework',

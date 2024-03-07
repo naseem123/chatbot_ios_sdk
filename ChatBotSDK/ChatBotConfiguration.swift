@@ -16,8 +16,12 @@ public struct ChatBotConfiguration {
     /// The base URL for connecting to the TIKI cloud.
     let baseUrl: String
     
-    public init(appId: String, baseUrl: String) {
+    let originURL: String
+    
+    
+    public init(appId: String, baseUrl: String, originURL: String) {
         self.appId = appId
         self.baseUrl = baseUrl
+        self.originURL = originURL
     }
 }
