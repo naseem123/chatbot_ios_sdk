@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "ChatBotSDK_v2"
-  s.version       = "1.0.18"
+  s.version       = "1.0.19"
   s.summary       = "iOS SDK for ChatBot"
   s.description   = "iOS SDK for ChatBot,"
   s.homepage      = "https://github.com/naseem123/chatbot_ios_sdk"
@@ -30,3 +30,5 @@ s.dependency 'chatbot_sdk_channel_flutter_1'
  #  'Frameworks/path_provider_foundation.xcframework',
  #]
 end
+
+
