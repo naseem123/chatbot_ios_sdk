@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name          = "ChatBotSDK_v2"
-  s.version       = "1.0.21"
+  s.module_name   = "ChatBotSDK"
+  s.version       = "1.0.22"
   s.summary       = "iOS SDK for ChatBot"
   s.description   = "iOS SDK for ChatBot,"
   s.homepage      = "https://github.com/naseem123/chatbot_ios_sdk"
@@ -17,18 +18,18 @@ Pod::Spec.new do |s|
   s.public_header_files = "ChatBotSDK/**/*.h"
   
   
-s.dependency 'chatbot_sdk_channel_flutter_1'
+# s.dependency 'chatbot_sdk_channel_flutter_1'
   
- #s.vendored_frameworks = [
- #  'Frameworks/App.xcframework',
- #  'Frameworks/Flutter.xcframework',
- #  'Frameworks/FlutterPluginRegistrant.xcframework',
- #  'Frameworks/sqflite.xcframework',
- #  'Frameworks/url_launcher_ios.xcframework',
- #  'Frameworks/webview_flutter_wkwebview.xcframework',
- #  'Frameworks/shared_preferences_foundation.xcframework',
- #  'Frameworks/path_provider_foundation.xcframework',
- #]
+ s.vendored_frameworks = [
+  'Frameworks/Release/App.xcframework',
+  'Frameworks/Release/Flutter.xcframework',
+  'Frameworks/Release/FlutterPluginRegistrant.xcframework',
+  'Frameworks/Release/sqflite.xcframework',
+  'Frameworks/Release/url_launcher_ios.xcframework',
+  'Frameworks/Release/webview_flutter_wkwebview.xcframework',
+  'Frameworks/Release/shared_preferences_foundation.xcframework',
+  'Frameworks/Release/path_provider_foundation.xcframework',
+ ]
 end
 
 
